@@ -288,7 +288,7 @@ For issues flagged due to CLAUDE.md or pr-workflow.md rules, the agent must doub
 
 ### Step 5: Filter
 
-Discard all issues with confidence score below 80. If no issues remain, proceed to Step 7 with "no issues found."
+Discard all issues with confidence score below 75. If no issues remain, proceed to Step 7 with "no issues found."
 
 ### Step 6: Re-Eligibility Check
 
