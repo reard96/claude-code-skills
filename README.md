@@ -19,6 +19,7 @@ These skills are a modified version of Anthropic's [Code Review Plugin](https://
 - Copilot (GitHub's default agent) reviews all PRs upon submission.
 - Claude Code reviews PRs upon submission as well, as the final step of `pr-workflow` is to invoke the `review-pr` skill.
 - Repeat 2-4 times until all bugs are found and addressed.
+- We've found after about 4 cycles returns are actually __*negative*__ (false postivies, undoing previous work).
 - A human reviewer will then review the PR and merge it if it's ready.
 
 ## Future Work
